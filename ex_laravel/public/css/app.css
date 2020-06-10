@@ -4,7 +4,7 @@
 }
 
 header {
-  height: 20vh;
+  height: 10vh;
   background: red;
 }
 
@@ -31,13 +31,35 @@ header .container ul {
 }
 
 main {
-  height: 60vh;
+  height: 80vh;
   background: #fff;
 }
 
 main .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .container .cont {
+  font-size: 25px;
+}
+
+main .container .cont li {
+  font-size: 30px;
+}
+
+main .container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+main .container .card img {
+  width: 400px;
+  height: 400px;
 }
 
 main .container iframe {
@@ -54,7 +76,7 @@ main.giallo .container h2 {
 }
 
 footer {
-  height: 20vh;
+  height: 10vh;
   background: grey;
 }
 

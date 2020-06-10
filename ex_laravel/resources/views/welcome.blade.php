@@ -17,7 +17,7 @@
       </header>
       <main>
         <div class="container">
-          @include('main')
+          @yield('content')
         </div>
       </main>
       <footer>
